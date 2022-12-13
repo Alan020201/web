@@ -1,0 +1,58 @@
+h1{
+color:aqua
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa-instagram {
+    background: #f404dc;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+<style> div{ border: 1px solid #000; }</style>
+*{
+
+    color: rgb(66, 0, 13);
+    
+    font-size: 12px;
+    
+    }
+    ul{
+
+        border: 1px solid rgb(154, 75, 75);
+        
+        font-size: 12px;
+        
+        }
+        #header{
+
+            border: 1px solid rgb(111, 27, 27);
+            
+            font-size: 12px;
+            
+            }
+            .container{
+
+                margin: 1 auto;
+                
+                width: 1200px;
+                
+                }
+                Input[type=“ALAN”] {
+
+                    font-size: 16px;
+                    
+                    line-height: 1.2;
+                    
+                    }
+                   
