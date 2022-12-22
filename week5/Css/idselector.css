@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Martian+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Martian+Mono:wght@300&family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Martian+Mono:wght@300&family=Rubik+80s+Fade&family=Rubik+Gemstones&display=swap');
+
+body{
+    /* background: linear-graident(to left,pink,orange);*/
+background-image: url("wallpaperflare.com_wallpaper.jpg");
+bacground-size: cover;
+baackground-position: center;
+background-attachment:fixed;
+}
+
+/*#heading{ 
+    background-color: rgb(2, 38, 38); font-size: 20px; color: bisque;
+    font-family: 'Rubik Vinyl', cursive;
+}
+.paraghraph{
+    background-color: rgb(244, 246, 248); font-size: 30px; color: blueviolet;
+    font-family: 'Martian Mono', monospace;
+}
+#first{
+    background-color: rgb(242, 246, 246); font-size: 20px;color: brown;
+    font-family: 'Chivo Mono', monospace;
+}
+#second{
+    background-color: rgb(250, 245, 246); font-size: 20px;color: rgb(239, 231, 231);
+    font-family: 'Rubik Gemstones', cursive;
+}
+#third{
+    background-color: rgb(246, 245, 249); font-size: 20px;color: rgb(46, 222, 102);
+    font-family: 'Rubik 80s Fade', cursive;
+}
