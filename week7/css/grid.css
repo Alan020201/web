@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 90%;
+    border: 5px solid black;
+    margin: 5px auto;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+ 
+}
+.grid1{
+    background-color: antiquewhite;
+}
+.grid2{
+    background-color: aqua;
+}
+.grid3{
+    background-color: aquamarine;
+}
+.grid4{
+    background-color: azure;
+}
+.grid5{
+    background-color: blueviolet;
+}
+.grid6{
+    background-color: blue;
+}

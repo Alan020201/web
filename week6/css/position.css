@@ -1,0 +1,15 @@
+.container{
+    width: 1050px;
+    height: 1050px;
+    border-style: solid;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+}
+.purple{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+}

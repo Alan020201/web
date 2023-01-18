@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #ffba00;
+}
+
+.container__header{
+    text-align: center;
+    font-size: 2em;
+    margin: 3% auto 2%;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__card{
+    width: 30%;
+    overflow: hidden;
+}
+
+.card__image{
+    width: 100%;
+    height: 52%;
+    overflow: hidden;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center ;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 20% 20% ;
+}
+
+h3{
+    margin: 4% auto 3%;
+    font-size: 2em;
+}
+
+h5{
+    margin: 4% auto 3%;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1.4em;
+    font-weight: 700;
+}
