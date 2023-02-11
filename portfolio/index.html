@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6bb95fc5cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo1.png" class="logo" width="250" height="50">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headertext"></div>
+        <p>Programmer</p>
+        <h1>Hi! I'm<span> Alan</span><br> Shah from Nepal</h1>
+    </div>
+ </div>  
+<!----------------------about---------------------------------------------------------------------->
+ <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="abo-col-1">
+                <img src="image/alan2.png" >
+            </div>
+            <div class="abo-col-2">
+                <h1 class="sub">About Me</h1>
+                <p>I am Alan Shah from pepsicola,Kathmandu. Currently, I pursing my bachelors degree from Herald College kathmandu whihc is affiliated with University of Wolverhampton.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="Education">
+                    <ul>
+                        <li><span>2022-current</span><br>B(Hon)CS at Herald College Kathmandu</li>
+                        <li><span>2020-2022</span><br>+2 at United Academy</li>
+                        <li><span>2018-2019</span><br>SEE at Nexus Int'l School</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2022-current</span><br>App Development at Herald College Kathmandu</li>
+                        <li><span>2020-2022</span><br>Webpage Development at United Academy</li>
+                        <li><span>2018-2019</span><br>UI/UX Design at Nexus Int'l School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div> 
+ <!--------------------------------------------------------------services------------------------------------------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub">My services</h1> 
+        <div class="serviceslist">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Making websites and online apps is the process of web development. Building dynamic and interactive web sites requires the use of HTML, CSS, JavaScript, and server-side programming languages like PHP, Ruby, and Python. For a smooth user experience, web developers plan and create the layout, architecture, and functioning of websites.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>User interface and user experience (UI/UX) design is the process of creating the user interface and user experience of digital products, such as websites and mobile applications. Designing user-friendly, aesthetically pleasing interfaces that satisfy their objectives and goals while also delivering a positive, seamless experience requires research, testing, and iterative design. Making products that are not only useful but also aesthetically pleasing, simple to use, and effective in solving user issues is the aim of UI/UX design.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Development</h2>
+                <p>Designing the user interface, user experience, and overall look and feel of mobile applications is referred to as app design. To build an easy-to-use and appealing user interface, it involves establishing the navigation, layout, typography, color schemes, and other visual components of the program. The aim of app design is to produce something that is not only aesthetically pleasing but also simple to use, effective in solving user issues, and offers a satisfying and seamless experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!--------------portfolio------------------------------------------------------------------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        <br> Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app lets you to the listen to varities of music around the world.
+                        <br> Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app allows you to do shopping from comfort of your house.
+                        <br> Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-------------------contact------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shahalan0202@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9745612188</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/profile.php?id=100007689648355"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/alan_hahs.02/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/alan-shah-b1a984152/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/Alan_Shah_-_Cover_Letter (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactright">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2023 Alan Shah</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+ </script>
+ <script>
+   
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+</body>
+</html>
