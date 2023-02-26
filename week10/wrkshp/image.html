@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+  
+</head>
+<body>
+    <img name = "slider" width=50% height=auto>
+    <script>
+        var i = 0;
+        var images = [];
+        var time = 3000;
+
+        images[0] = 'image/image1.jpg';
+        images[1] = 'image/image2.jpg';
+        images[2] = 'image/image3.jpg';
+
+        function slideshow(){
+            document.slider.src = images[i];
+            if(i<images.length-1){
+               i++;
+            }else{
+                i=0;
+            }
+
+            setTimeout("slideshow()",time);
+        }
+
+        window.onload = slideshow;
+    </script>
+
+    
+</body>
+</html>
